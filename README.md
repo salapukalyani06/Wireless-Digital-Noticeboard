@@ -22,12 +22,24 @@ Ideal for campuses, offices, and public spaces needing dynamic, wireless communi
 
 ## 🔧 Hardware Components
 
-- LPC2148 (ARM7 Microcontroller)  
-- 4 × 8×8 Dot Matrix LED Displays  
-- HC-05 Bluetooth Module  
-- AT24C256 EEPROM (I2C)  
-- 74HC573 (Octal Latch)  
-- 74HC164 (Shift Register)  
+- **LPC2148 Microcontroller**  
+  A 32-bit ARM7-based microcontroller that acts as the main controller, managing communication and display control.
+
+- **4 × 8×8 Dot Matrix LED Displays**  
+  Four 8x8 LED panels used to display scrolling text and animations.
+
+- **HC-05 Bluetooth Module**  
+  Enables wireless serial communication between the microcontroller and a smartphone.
+
+- **AT24C256 EEPROM**  
+  An I²C-based memory chip for storing messages persistently, retaining data even when powered off.
+
+- **74HC573 (Octal Latch)**  
+  Holds data signals stable to control the LED matrix reliably.
+
+- **74HC164 (Shift Register)**  
+  Expands output pins to drive LED matrix rows or columns efficiently via serial data input.
+
 
 ---
 
